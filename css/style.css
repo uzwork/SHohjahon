@@ -1,0 +1,725 @@
+body {
+    background: url(../img/home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top: 0;
+    position: sticky;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 1920px;
+    height: 150px;
+    background: #3a3a3a;
+}
+
+.bxs-sun {
+    font-size: 2rem;
+    background: limegreen;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+
+.bxs-moon {
+    font-size: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bxs-plane {
+    cursor: pointer;
+    font-size: 2.5rem;
+    transition: 0.3s;
+    margin-left: 680px;
+}
+
+.bxs-hotel {
+    cursor: pointer;
+    margin: 0px 20px;
+    font-size: 2.5rem;
+    transition: 0.3s;
+}
+
+.menu .bxs-home {
+    font-size: 4rem;
+    cursor: pointer;
+    margin: 0px 30px;
+    transition: 0.3s;
+}
+
+.bx-restaurant {
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bx-plus-medical {
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 0px 20px;
+    transition: 0.3s;
+}
+
+.bxs-car-mechanic {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bxs-gas-pump {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+p {
+    font-size: 3rem;
+    margin-top: -100px;
+    transition: 0.5s;
+    margin-left: 750px;
+}
+
+iframe {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.shaxar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* flex-flow: column; */
+    margin-top: 100px;
+    margin-left: -8px;
+    width: 1915px;
+    height: 1100px;
+    background: linear-gradient(rgba(37, 43, 56, 0.8), rgba(37, 43, 56, 0.8), rgba(37, 43, 56, 0.8));
+}
+
+.shaxar .samarqand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    background: url(../img/samarqand1.jpg);
+    background-size: cover;
+    margin-left: 130px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: samarqand;
+    border-radius: 18px;
+}
+
+.shaxar .samarqand:hover {
+    box-shadow: 10px 10px 10px rgb(151, 62, 62), -10px 10px 10px rgb(151, 62, 62), 10px -10px 10px rgb(151, 62, 62), -10px -10px 10px rgb(151, 62, 62);
+}
+
+.shaxar .samarqand h1 {
+    margin-top: 40px;
+    margin-left: 0px;
+    color: aliceblue;
+    font-size: 0rem;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes samarqand {
+    0% {
+        background: url(../img/samarqand1.jpg);
+        background-size: cover;
+    }
+    50% {
+        background: url(../img/samarqand2.jpg);
+        background-size: cover;
+    }
+    100% {
+        background: url(../img/samarqandmap.png);
+        background-size: cover;
+    }
+}
+
+.shaxar .andijan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    background: url(../img/andijan1.jpg);
+    background-size: cover;
+    margin-left: 130px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: andijan;
+    border-radius: 18px;
+}
+
+.shaxar .andijan:hover {
+    box-shadow: 10px 10px 10px rgb(151, 62, 62), -10px 10px 10px rgb(151, 62, 62), 10px -10px 10px rgb(151, 62, 62), -10px -10px 10px rgb(151, 62, 62);
+}
+
+.shaxar .andijan h1 {
+    margin-top: 40px;
+    margin-left: 0px;
+    color: aliceblue;
+    font-size: 0rem;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+@keyframes andijan {
+    0% {
+        background: url(../img/andijan1.jpg);
+        background-size: cover;
+    }
+    50% {
+        background: url(../img/andijan3.jpg);
+        background-size: cover;
+    }
+    100% {
+        background: url(../img/andijan2.jpg);
+        background-size: cover;
+    }
+}
+
+.shaxar .tashkent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    background: url(../img/tashkent1.jpg);
+    background-size: cover;
+    margin-left: 130px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: tashkent;
+    border-radius: 18px;
+}
+
+.shaxar .tashkent:hover {
+    box-shadow: 10px 10px 10px rgb(151, 62, 62), -10px 10px 10px rgb(151, 62, 62), 10px -10px 10px rgb(151, 62, 62), -10px -10px 10px rgb(151, 62, 62);
+}
+
+.shaxar .tashkent h1 {
+    margin-top: 40px;
+    margin-left: 0px;
+    color: aliceblue;
+    font-size: 0rem;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+@keyframes tashkent {
+    0% {
+        background: url(../img/tashkent1.jpg);
+        background-size: cover;
+    }
+    50% {
+        background: url(../img/tashkent2.jpg);
+        background-size: cover;
+    }
+    100% {
+        background: url(../img/tashkent3.jpg);
+        background-size: cover;
+    }
+}
+
+.shaxar .buxoro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    background: url(../img/buxoro1.webp);
+    background-size: cover;
+    margin-left: 130px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: buxoro;
+    border-radius: 18px;
+}
+
+.shaxar .buxoro:hover {
+    box-shadow: 10px 10px 10px rgb(151, 62, 62), -10px 10px 10px rgb(151, 62, 62), 10px -10px 10px rgb(151, 62, 62), -10px -10px 10px rgb(151, 62, 62);
+}
+
+.shaxar .buxoro h1 {
+    margin-top: 40px;
+    margin-left: 0px;
+    color: aliceblue;
+    font-size: 0rem;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+@keyframes buxoro {
+    0% {
+        background: url(../img/buxoro1.webp);
+        background-size: cover;
+    }
+    50% {
+        background: url(../img/buxoro2.png);
+        background-size: cover;
+    }
+    100% {
+        background: url(../img/buxoro3.webp);
+        background-size: cover;
+    }
+}
+
+.shaxar .qashqadaryo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    background: url(../img/qashqadaryo1.webp);
+    background-size: cover;
+    margin-left: 130px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: qashqadaryo;
+    border-radius: 18px;
+}
+
+.shaxar .qashqadaryo:hover {
+    box-shadow: 10px 10px 10px rgb(151, 62, 62), -10px 10px 10px rgb(151, 62, 62), 10px -10px 10px rgb(151, 62, 62), -10px -10px 10px rgb(151, 62, 62);
+}
+
+.shaxar .qashqadaryo h1 {
+    margin-top: 40px;
+    margin-left: 0px;
+    color: aliceblue;
+    font-size: 0rem;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+@keyframes qashqadaryo {
+    0% {
+        background: url(../img/qashqadaryo1.webp);
+        background-size: cover;
+    }
+    50% {
+        background: url(../img/qashqadaryo2.webp);
+        background-size: cover;
+    }
+    100% {
+        background: url(../img/qashqadaryo3.webp);
+        background-size: cover;
+    }
+}
+
+.shaxar .jizzax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    background: url(../img/tashkent1.jpg);
+    background-size: cover;
+    margin-left: 130px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: jizzax;
+    border-radius: 18px;
+}
+
+.shaxar .jizzax:hover {
+    box-shadow: 10px 10px 10px rgb(151, 62, 62), -10px 10px 10px rgb(151, 62, 62), 10px -10px 10px rgb(151, 62, 62), -10px -10px 10px rgb(151, 62, 62);
+}
+
+.shaxar .jizzax h1 {
+    margin-top: 40px;
+    margin-left: 0px;
+    color: aliceblue;
+    font-size: 0rem;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+@keyframes jizzax {
+    0% {
+        background: url(../img/jizzax1.webp);
+        background-size: cover;
+    }
+    50% {
+        background: url(../img/jizzax2.webp);
+        background-size: cover;
+    }
+    100% {
+        background: url(../img/jizzax3.webp);
+        background-size: cover;
+    }
+}
+
+button {
+    font-size: 0;
+    background: none;
+    border: none;
+}
+
+h2 {
+    margin-top: 500px;
+    font-size: 4rem;
+    margin-left: 830px;
+}
+
+.sanatorya {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: -8px;
+    margin-bottom: 200px;
+    width: 1915px;
+    height: 800px;
+    background: linear-gradient(rgba(37, 43, 56, 0.8), rgba(37, 43, 56, 0.8), rgba(37, 43, 56, 0.8));
+}
+
+.zomin {
+    width: 400px;
+    height: 400px;
+    background: url(../img/zomin.jpg);
+    background-size: cover;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: zomin;
+}
+
+@keyframes zomin {
+    0% {
+        background: url(../img/zomin.jpg);
+        background-size: cover;
+    }
+    100% {
+        background: url(../img/zomin1.webp);
+        background-size: cover;
+    }
+}
+
+.chorvoq {
+    margin-left: 250px;
+    width: 400px;
+    height: 400px;
+    background: url(../img/chorvoq1.webp);
+    background-size: cover;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: chorvoq;
+}
+
+@keyframes chorvoq {
+    0% {
+        background: url(../img/chorvoq1.webp);
+        background-size: cover;
+    }
+    50% {
+        background: url(../img/chorvoq2.webp);
+        background-size: cover;
+    }
+    100% {
+        background: url(../img/chorvoq3.webp);
+        background-size: cover;
+    }
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    width: 1910px;
+    height: 60px;
+    background: rgb(233, 233, 233);
+}
+
+.menu2 h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    font-size: 2rem;
+    border: 1px solid grey;
+    width: 280px;
+    height: 60px;
+    cursor: pointer;
+    /* transition: 0.2s; */
+}
+
+.menu2 h6:hover {
+    background: gray;
+}
+
+.cit {
+    /* transition: 0.2s; */
+    margin-left: 20px;
+}
+
+h5 {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 0;
+    border: none;
+    margin: 0 0;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+h5:hover {
+    background: gray;
+}
+
+.touris {
+    /* transition: 0.2s; */
+    margin-left: 20px;
+}
+
+.tourism {
+    margin-top: 0;
+}
+
+.iclass1 {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.iclass1:hover {
+    background: gray;
+}
+
+.iclass2 {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.iclass2:hover {
+    background: gray;
+}
+
+.iclass3 {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.iclass3:hover {
+    background: gray;
+}
+
+.iclass4 {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.iclass4:hover {
+    background: gray;
+}
+
+.iclass5 {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.iclass5:hover {
+    background: gray;
+}
+
+.iclass6 {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.iclass6:hover {
+    background: gray;
+}
+
+s {
+    font-size: 3rem;
+    width: 150px;
+    height: 40px;
+    background: red;
+    border: 5px solid darkred;
+    border-radius: 12px;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 860px;
+}
+
+.footer {
+    margin-top: 300px;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    width: 1915px;
+    height: 400px;
+    background: #212121;
+}
+
+.footer h3 {
+    margin-top: 100px;
+    margin-left: 800px;
+    font-size: 2rem;
+    color: gray;
+}
+
+.footer .connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background: rgb(118, 117, 117);
+}
+
+.footer code {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+
+/*************  MEDIA  *************/
+
+@media (max-width:1420px) {
+    .menu {
+        width: 1420px;
+    }
+    .bxs-plane {
+        margin-left: 480px;
+    }
+    .menu2 {
+        margin-left: -8px;
+        width: 1415px;
+    }
+    .sanatorya {
+        width: 1420px;
+    }
+    .shaxar {
+        width: 1420px;
+    }
+    p {
+        margin-left: 530px;
+    }
+    s {
+        margin-left: 650px;
+    }
+    h2 {
+        margin-left: 625px;
+    }
+    .footer {
+        width: 1420px;
+    }
+    .tashkent {
+        margin-left: 0;
+    }
+    .jizzax {
+        margin-left: 0;
+    }
+    .qashqadaryo {
+        margin-left: 0;
+    }
+    .samarqand {
+        margin-left: 0;
+    }
+    .buxoro {
+        margin-left: 0;
+    }
+    .andijan {
+        margin-left: 0;
+    }
+}
+
+@media ( max-width:355px) {
+    .menu {
+        width: 354px;
+    }
+    .menu2 {
+        margin-left: -8px;
+        width: 354px;
+    }
+    p {
+        margin-top: -100px;
+    }
+    .sanatorya {
+        width: 354px;
+    }
+    .shaxar {
+        width: 354px;
+    }
+    .footer {
+        width: 354px;
+    }
+}
